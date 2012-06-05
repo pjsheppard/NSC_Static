@@ -1,0 +1,50 @@
+body {
+  font-size: 0.8em;
+  font-family: arial;
+  color: black;
+  background-color: white;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  background-color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+/* use with <div id="printer"> */
+#printer {
+  background-color: white;
+  color: black;
+  font-size: 0.8em;
+  font-family: arial;
+}
